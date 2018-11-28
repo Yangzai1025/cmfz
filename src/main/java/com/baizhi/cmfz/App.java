@@ -16,6 +16,8 @@ public class App {
         SpringApplication.run(App.class, args);
     }
 
+    
+    
     //验证码
     @Bean
     public DefaultKaptcha producer() {
